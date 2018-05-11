@@ -1,0 +1,9 @@
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\bin\Debug\SandroMancusoTraining_Project3.dll
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\bin\Debug\SandroMancusoTraining_Project3.pdb
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\bin\Debug\nunit.framework.dll
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\bin\Debug\nunit.framework.xml
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\obj\Debug\SandroMancusoTraining_Project3.csprojAssemblyReference.cache
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\obj\Debug\SandroMancusoTraining_Project3.csproj.CoreCompileInputs.cache
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\obj\Debug\SandroMancusoTraining_Project3.csproj.CopyComplete
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\obj\Debug\SandroMancusoTraining_Project3.dll
+D:\Repositorios GIT\TDD Course with Sandro Mancuso\SandroMancusoTraining_Project3\obj\Debug\SandroMancusoTraining_Project3.pdb
