@@ -9,7 +9,7 @@ namespace SandroMancusoTraining_Project3
         private DateTime _date;
 
         [Test]
-        public void BeTrueIfIsDivisibleByFourHundred()
+        public void _1st_be_true_if_divisible_by_four_hundred()
         {
             GivenYear(2000);
 
@@ -17,7 +17,7 @@ namespace SandroMancusoTraining_Project3
         }
 
         [Test]
-        public void BeFalseIfIsDivisibleByOneHundredButNotByFourHundred()
+        public void _2nd_be_false_if_divisible_by_one_hundred_and_does_not_break_the_first_law()
         {
             GivenYear(2100);
 
@@ -25,7 +25,7 @@ namespace SandroMancusoTraining_Project3
         }
 
         [Test]
-        public void BeTrueIfIsDivisibleByFourButNotByOneHundred()
+        public void _3rd_be_true_if_divisible_by_for_and_does_not_break_the_previous_laws()
         {
             GivenYear(2016);
 
