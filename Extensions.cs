@@ -6,6 +6,12 @@ namespace SandroMancusoTraining_Project3
     {
         public static bool IsLeapYear(this DateTime date)
         {
+            // Alternate construction for the first two ifs
+            // if (date.Year.IsDivisibleBy(100))
+            // {
+            //    return date.Year.IsDivisibleBy(400);
+            // }
+
             if (date.Year.IsDivisibleBy(400))
             {
                 return true;
