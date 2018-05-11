@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 
 namespace SandroMancusoTraining_Project3
@@ -10,28 +6,45 @@ namespace SandroMancusoTraining_Project3
     [TestFixture]
     public class IsLeapYearShould
     {
+        private DateTime _date;
+
         [Test]
         public void BeTrueIfIsDivisibleByFourHundred()
         {
-            var date = new DateTime(2000, 1, 1);
+            GivenYear(2000);
 
-            Assert.IsTrue(date.IsLeapYear());
+            ThenIsLeapYear();
         }
 
         [Test]
         public void BeFalseIfIsDivisibleByOneHundredButNotByFourHundred()
         {
-            var date = new DateTime(2100, 1, 1);
+            GivenYear(2100);
 
-            Assert.IsFalse(date.IsLeapYear());
+            ThenNotIsLeapYear();
         }
 
         [Test]
         public void BeTrueIfIsDivisibleByFourButNotByOneHundred()
         {
-            var date = new DateTime(2016, 1, 1);
+            GivenYear(2016);
 
-            Assert.IsTrue(date.IsLeapYear());
+            ThenIsLeapYear();
+        }
+
+        private void GivenYear(int year)
+        {
+            _date = new DateTime(year, 1, 1);
+        }
+
+        private void ThenIsLeapYear()
+        {
+            Assert.IsTrue(_date.IsLeapYear());
+        }
+
+        private void ThenNotIsLeapYear()
+        {
+            Assert.IsFalse(_date.IsLeapYear());
         }
     }
 }
