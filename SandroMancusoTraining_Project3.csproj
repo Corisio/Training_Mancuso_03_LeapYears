@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="IsLeapYearShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -19,11 +19,19 @@ namespace SandroMancusoTraining_Project3
         }
 
         [Test]
-        public void BeFalseIfIsDivisibleByOneHunDredButNotByFourHundred()
+        public void BeFalseIfIsDivisibleByOneHundredButNotByFourHundred()
         {
             var date = new DateTime(2100, 1, 1);
 
             Assert.IsFalse(date.IsLeapYear());
+        }
+
+        [Test]
+        public void BeTrueIfIsDivisibleByFourButNotByOneHundred()
+        {
+            var date = new DateTime(2016, 1, 1);
+
+            Assert.IsTrue(date.IsLeapYear());
         }
     }
 }
